@@ -4,7 +4,7 @@
   box-sizing: border-box;
   color: aliceblue;
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 20x;
 }
 body {
   background: #302f2f;
@@ -94,8 +94,12 @@ li>span {
 }
 
 @media screen and (max-width: 600px) {
+  *{
+    font-size: 16px;
+  }
   .box {
     width: 90%;
+    height: auto;
   }
   input {
     width: 40%;
@@ -105,11 +109,11 @@ li>span {
   }
   ul {
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 
   }
   li{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 90%;
 
   }
